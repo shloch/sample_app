@@ -78,6 +78,11 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     #assert_select 'div.alert-success', 0
   end
 
+  #Inside a test, you can access instance variables defined in the controller by using
+  #assigns with the corresponding symbol. For example,
+  #if the create action defines an @user variable, we can access
+  #it in the test using assigns(:user). 
+  
   test "login with remembering" do
     log_in_as(@user, remember_me: '1')
     assert_not_empty cookies[:remember_token]

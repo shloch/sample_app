@@ -37,6 +37,7 @@ module SessionsHelper
   def logged_in?
     not current_user.nil?
   end
+  
 
 
   # Logs out the current user.

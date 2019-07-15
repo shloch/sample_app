@@ -1,5 +1,13 @@
 # README
 
+
+SAMPLE APP IS A WEBITE BUILT IN RUBY ON RAILS FOR MICRO-BLOGGING LIKE TWITTER.
+
+USERS CAN CREAT ACCOUNT, LOGIN/LOGOUT, WRITE/EDIT POSTS
+
+## LIVE DEMO
+The live demo is available at:  _https://polar-tor-85209.herokuapp.com_
+
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
